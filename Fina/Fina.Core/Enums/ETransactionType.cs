@@ -1,8 +1,7 @@
-﻿namespace Fina.Core.Enums
+namespace Fina.Core.Enums;
+
+public enum ETransactionType
 {
-    public enum ETransactionType
-    {
-        Deposity = 1,
-        WithDraw = 2
-    }
+    Deposit = 1,
+    Withdraw = 2
 }

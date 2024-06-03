@@ -1,7 +1,6 @@
-﻿namespace Fina.Core.Requests.Transactions
+namespace Fina.Core.Requests.Transactions;
+
+public class DeleteTransactionRequest : Request
 {
-    public class DeleteTransactionRequest : Request
-    {
-        public long Id { get; set; }    
-    }
+    public long Id { get; set; }
 }
